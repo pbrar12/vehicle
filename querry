@@ -1,0 +1,5 @@
+while($row = mysql_fetch_assoc($result))
+{
+   echo $row['name']." ";
+   echo $row['email']." ";
+}
